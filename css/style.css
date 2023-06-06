@@ -195,7 +195,7 @@ header  nav li:last-of-type a{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 8px;
+    padding-right: 10px;
    
     letter-spacing: 0.4px;
 
