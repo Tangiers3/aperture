@@ -45,6 +45,8 @@ header nav a{
     font: 400 15px/20px 'Poppins', sans-serif;
     color: #FFFFFF;
     text-decoration: none;
+    display: flex;
+    flex-wrap: nowrap
 
 }
 header nav li:first-of-type a{
@@ -202,3 +204,94 @@ header  nav li:last-of-type a{
 
 }
 
+
+
+.sunset {
+    background-image: url("../images/mount_fuji.jpg");
+    background-size: cover;
+    min-height: 600px;
+   /* background-position: center center;*/
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 60px;
+
+}
+
+.monstera{
+    background-image: url("../images/leaf.jpg");
+}
+.himalayas{
+    background-image: url("../images/himalayas.jpg");
+}
+.sunset article{
+    max-width: 300px;
+}
+.sunset article h4{
+    font: 14px/20px 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    /* identical to box height, or 143% */
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.sunset article p{
+    font: 14px/20px 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    /* or 143% */
+
+
+    color: #C0C0C0;
+}
+.clients{
+    padding: 113px 0 140px;
+    background-color: black;
+}
+.clients .container{
+    max-width: 1168px;
+    margin: auto;
+}
+.clients h2{
+    font: 40px/42px 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+
+    /* identical to box height, or 105% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.clients h4{
+    font: 24px/30px 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+
+    /* identical to box height, or 125% */
+
+    text-align: center;
+
+    color: #C0C0C0;
+    margin-bottom: 82px;
+}
+
+.clients .flex_block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.clients .flex_block a{
+    display: inline-block;
+    margin: 0 10px;
+    max-width: 128px;
+
+}
+.clients .flex_block a img{
+    display: block;
+    width: 100%;
+}
