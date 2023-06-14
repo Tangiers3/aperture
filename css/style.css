@@ -69,6 +69,7 @@ header  nav li:last-of-type a{
     background-size: cover;
     height: calc(100vh - 83px);
     box-sizing: border-box;
+    position: relative;
 
 
 }
@@ -127,39 +128,6 @@ header  nav li:last-of-type a{
     text-align: center;
     color: #C0C0C0;
 }
-/*.get-in-touch {
-    background: #FFFFFF;
-    font: 16px/20px 'poppinsregular';
-    text-decoration: none;
-    text-align: center;
-    margin-top: 22px;
-    max-width: 154px;
-    border-radius: 14px;
-
-}
-.help article:first-of-type a{
-    font-size: 16px;
-    text-align: center;
-
-}
-.help article:last-of-type a{
-
-    line-height: 32px;
-    border-radius: 14px;
-    color: #000000;
-    padding: 9px 13px;
-
-
-
-
-}
-.help article a:before{
-    display: inline-flex;
-    content: url("images/Frame.svg");
-    justify-content: center;
-
-    background-image:  url("images/Frame.svg");
-}*/
 
 .help-link {
     background: #FFFFFF;
@@ -215,6 +183,8 @@ header  nav li:last-of-type a{
     justify-content: flex-end;
     align-items: center;
     padding-right: 60px;
+    position: relative;
+
 
 }
 
@@ -294,4 +264,213 @@ header  nav li:last-of-type a{
 .clients .flex_block a img{
     display: block;
     width: 100%;
+}
+.footer {
+    background-color: black;
+    padding-top: 100px;
+}
+.about-wrap, .subscribe-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-wrap {
+    margin-bottom: 36px;
+}
+
+.description h5 {
+    font: 13px/20px 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 20px;
+    color: #C0C0C0;
+}
+
+.areas div ul li {
+
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+/*.areas-links {
+    float: right;
+}*/
+
+.areas-links ul li a{
+    font: 14px/20px 'poppinsregular';
+
+    font-style: normal;
+    font-weight: 400;
+    /* identical to box height, or 143% */
+    letter-spacing: 2px;
+
+
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-top: 10px;
+
+
+}
+.areas-links ul li:first-of-type{
+    font: 14px/20px 'poppinsregular';
+
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #C0C0C0;
+
+}
+
+.pages-links ul li:first-of-type{
+    font: 14px/20px 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+}
+.pages-links ul li a{
+    font: 14px/20px 'poppinsregular';
+
+    font-style: normal;
+    font-weight: 400;
+    /* identical to box height, or 143% */
+    letter-spacing: 2px;
+    justify-content: space-between;
+    color: #FFFFFF;
+    padding-top: 10px;
+    text-decoration: none;
+}
+/*.pages-links{
+    float: right;
+}*/
+
+.qwe{
+
+    max-width: 1168px;
+    margin: auto;
+}
+
+.areas-links, .pages-links {
+    display: flex;
+    flex-flow: column wrap;
+}
+.areas {
+    display: flex;
+}
+.pages-links{
+    margin-left: 55px;
+}
+.bottom-icons {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+}
+.bottom-icons li {
+    font: 12px/12px 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+
+.bottom-icons li:before {
+    content: "";
+    display: inline-block ;
+    background-image: url("../images/timer.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    bottom: -5px;
+}
+.bottom-icons li:nth-of-type(2):before {
+    background-image: url("../images/f.svg");
+
+}
+
+.bottom-icons li:nth-of-type(3):before {
+    background-image: url("../images/ISO.svg");
+    width: 32px;
+}
+
+.bottom-icons li:nth-of-type(4):before {
+    background-image: url("../images/location.svg");
+    width: 10px;
+}
+
+.subscribe-wrapper {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding: 36px 0;
+
+}
+
+
+.newsletter h3 {
+    font: 14px/12px 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+
+}
+.newsletter p {
+    font: 13px/20px 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    color: #C0C0C0;
+    margin-top: 20px;
+}
+.licensing-social p {
+    font: 14px/20px 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    color: #C0C0C0;
+
+}
+.licensing-social {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 56px;
+
+}
+.licensing-social a{
+    padding-right: 20px;
+    text-decoration: none;
+}
+.subscribe {
+    background: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    width: 458px;
+    height: 52px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.subscribe button {
+    background: #000000;
+    border-radius: 11px;
+    width: 63px;
+    height: 30px;
+    margin: 11px 6px 11px 0;
+    border: none;
+
+}
+.subscribe input {
+    border: none;
+    width: 376px;
+    height: 38px;
+    margin: 7px 6px 7px 7px;
+
 }
