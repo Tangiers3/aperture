@@ -474,3 +474,241 @@ header  nav li:last-of-type a{
     margin: 7px 6px 7px 7px;
 
 }
+
+.areas-wrapper {
+    background-color: #000000;
+    padding: 120px 0 100px;
+
+}
+.areas-wrapper div h3 {
+    font: 40px/42px 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
+.areas-wrapper div h4 {
+    font: 23px/30px 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: #C0C0C0;
+    padding-bottom: 42px;
+}
+.examples-area {
+    max-width: 1168px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+
+}
+.examples {
+    max-width: 576px;
+    height: 600px;
+    position: relative;
+}
+.card-1 {
+    position: absolute;
+    right: 32px;
+    bottom: 30px;
+    left: 30px;
+}
+.examples h5 {
+    font: 14px/20px 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+.examples p {
+    font: 14px/20px 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    color: #C0C0C0;
+    padding-bottom: 10px;
+}
+.examples a {
+    max-width: 154px;
+    padding: 5px 10px 5px 4px;
+    margin: auto;
+    font: 15px/20px 'poppinsregular';
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 14px;
+    display: inline-flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+.examples a::before {
+    display: inline-block;
+    content: "";
+    width: 32px;
+    height: 32px;
+    background-color: #000000;
+    border-radius: 43%;
+    margin-right: 6px;
+}
+
+/*---------------*/
+
+.examples-1 {
+    max-width: 576px;
+    height: 600px;
+    position: relative;
+}
+.card-2 {
+    position: absolute;
+    right: 32px;
+    bottom: 30px;
+    left: 30px;
+}
+.examples-1 h5 {
+    font: 14px/20px 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+.examples-1 p {
+    font: 14px/20px 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    color: #C0C0C0;
+    padding-bottom: 10px;
+}
+.examples-1 a {
+    max-width: 154px;
+    padding: 5px 10px 5px 4px;
+    margin: auto;
+    font: 15px/20px 'poppinsregular';
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 14px;
+    display: inline-flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+.examples-1 a::before {
+    display: inline-block;
+    content: "";
+    width: 32px;
+    height: 32px;
+    background-color: #000000;
+    border-radius: 43%;
+    margin-right: 6px;
+}
+
+/*
+------------
+*/
+.examples-2 {
+    max-width: 576px;
+    height: 600px;
+    position: relative;
+}
+.card-3 {
+    position: absolute;
+    right: 32px;
+    bottom: 30px;
+    left: 30px;
+}
+.examples-2 h5 {
+    font: 14px/20px 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+.examples-2 p {
+    font: 14px/20px 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    color: #C0C0C0;
+    padding-bottom: 10px;
+}
+.examples-2 a {
+    max-width: 154px;
+    padding: 5px 10px 5px 4px;
+    margin: auto;
+    font: 15px/20px 'poppinsregular';
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 14px;
+    display: inline-flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+.examples-2 a::before {
+    display: inline-block;
+    content: "";
+    width: 32px;
+    height: 32px;
+    background-color: #000000;
+    border-radius: 43%;
+    margin-right: 6px;
+}
+/*--------------*/
+
+.examples-3 {
+    max-width: 576px;
+    height: 600px;
+    position: relative;
+}
+.card-4 {
+    position: absolute;
+    right: 32px;
+    bottom: 30px;
+    left: 30px;
+}
+.examples-3 h5 {
+    font: 14px/20px 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+.examples-3 p {
+    font: 14px/20px 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    color: #C0C0C0;
+    padding-bottom: 10px;
+}
+.examples-3 a {
+    max-width: 154px;
+    padding: 5px 10px 5px 4px;
+    margin: auto;
+    font: 15px/20px 'poppinsregular';
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 14px;
+    display: inline-flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+.examples-3 a::before {
+    display: inline-block;
+    content: "";
+    width: 32px;
+    height: 32px;
+    background-color: #000000;
+    border-radius: 43%;
+    margin-right: 6px;
+}
+
+
+
