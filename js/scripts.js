@@ -3,8 +3,9 @@
 $(document).ready(function(){
     $('.owl-carousel').owlCarousel({
         loop:true,
-        autoplay:false,
-        autoplayTimeout:2000,
+        autoplay:true,
+
+        autoplayTimeout:2500,
         navText: [ '', ' ' ],
         nav: false,
         dots: true,
@@ -23,3 +24,5 @@ $(document).ready(function(){
         }
     });
 });
+
+

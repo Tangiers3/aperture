@@ -14,6 +14,12 @@
     padding: 0;
     margin: 0;
 }
+/*header {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}*/
 header {
     background-color: #181818;
     padding: 24px 0;
@@ -373,13 +379,14 @@ header  nav li:last-of-type a{
     bottom: 40px;
 }
 .bottom-icons li {
-    font: 12px/12px 'poppinsregular';
+    font: 11px/11px 'poppinsregular';
     font-style: normal;
     font-weight: 400;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #FFFFFF;
     margin-left: 16px;
+
 }
 
 .bottom-icons li:before {
@@ -710,6 +717,17 @@ header  nav li:last-of-type a{
     border-radius: 43%;
     margin-right: 6px;
 }
+
+.owl-stage {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
 
 
 

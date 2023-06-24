@@ -25,7 +25,7 @@
     }
 
     header nav ul li a {
-        font-size: 8px;
+        font-size: 10px;
     }
     .clients .flex_block {
         flex-wrap: wrap;
@@ -34,20 +34,121 @@
     .clients .flex_block a{
         margin: 10px;
     }
-}
 
-@media screen and (max-width: 768px) {
     header nav li:first-of-type a{
-        font-size: 8px;
+        font-size: 10px;
     }
     header nav ul li:first-of-type{
-        margin-right: 16px;
+        margin-right: 10px;
     }
+
+    header nav li:last-of-type a {
+        font-size: 12px;
+        padding: 8px 14px;
+    }
+    .owl-item {
+        display: flex;
+        justify-content: center;
+    }
+     header .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+     header {
+         padding: 15px 0;
+     }
+     footer .subscribe-wrapper {
+         display: flex;
+         justify-content: space-around;
+     }
+     footer .about-wrap {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+     }
+     footer .description h5 {
+         display: flex;
+         align-items: center;
+         padding-bottom: 20px;
+         font: 10px/15px 'poppinsregular';
+
+     }
+     footer .areas-links ul li a {
+         font: 10px/15px 'poppinsregular';
+     }
+     footer .pages-links ul li a {
+         font: 10px/15px 'poppinsregular';
+     }
+     footer .description {
+        text-align: center;
+     }
 }
+
+
 
 
 @media only screen and (max-width: 428px) {
-    
+    header .container {
+        padding-left: 18px;
+        padding-right: 8px;
+
+
+
+    }
+    header nav a{
+        font: 400 10px/15px 'Poppins', sans-serif;
+
+
+    }
+    header nav ul li a{
+        white-space: nowrap;
+
+
+
+    }
+    header .container a img{
+        max-width: 72px;
+        position: absolute;
+        margin-top: -25px;
+        margin-left: 175px;
+
+
+
+    }
+
+    header  nav li:last-of-type a {
+        padding: 6px 8px;
+        font-size: 10px;
+
+    }
+    .examples-area article {
+        max-width: 428px;
+        height: 428px;
+        overflow: hidden;
+    }
+    .areas-wrapper {
+        padding: 40px 0 30px;
+    }
+    .subscribe-wrapper {
+        flex-direction: column;
+        text-align: center;
+
+    }
+   .subscribe{
+       width: 350px;
+       margin: auto;
+   }
+   .subscribe input {
+       width: 300px;
+   }
+  .licensing-social p{
+      font: 10px/15px 'poppinsregular';
+  }
+  .licensing-social a {
+      padding-right: 10px;
+  }
+
 
 }
 
