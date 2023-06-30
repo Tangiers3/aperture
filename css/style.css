@@ -723,6 +723,146 @@ header  nav li:last-of-type a{
     align-items: center;
 }
 
+.clients .owl-item{
+    text-align: center;
+}
+
+.clients .owl-nav .owl-prev{
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: -36px;
+    top: 36px;
+    transform: rotate(90deg);
+
+}
+.clients .owl-nav .owl-prev:before {
+    content: "";
+    width: 0;
+    height: 0;
+
+    position: absolute;
+    border-bottom: solid 48px transparent;
+    border-top: solid 48px white;
+    border-left: solid 48px transparent;
+    border-right: solid 48px transparent;
+    top: -49px;
+    left: -48px;
+}
+
+.clients .owl-nav .owl-next{
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: -36px;
+    top: 36px;
+    transform: rotate(-90deg);
+}
+
+.clients .owl-nav .owl-next:before {
+    content: "";
+    width: 0;
+    height: 0;
+
+    position: absolute;
+    border-bottom: solid 48px transparent;
+    border-top: solid 48px white;
+    border-left: solid 48px transparent;
+    border-right: solid 48px transparent;
+    top: -49px;
+    left: -48px;
+}
+
+.ui-widget.ui-widget-content {
+    width: 500px !important;
+
+
+}
+.ui-widget-header {
+    border: 0;
+    outline: 0;
+    background: linear-gradient(45deg, black, grey,black); ;
+    color: white;
+
+}
+.ui-corner-all {
+    border: none;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+
+}
+.ui-dialog .ui-dialog-title {
+    width: 100%;
+
+}
+
+.ui-widget-content {
+    background: linear-gradient(45deg, black, grey, black);
+    color: #FFFFFF;
+    opacity: 98%;
+}
+
+.ui-widget.ui-widget-content {
+    border: none;
+    border-radius: 10px;
+
+
+}
+
+.ui-dialog-title{
+    font: 14px/20px 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    text-align: center;
+}
+.ui-dialog-content {
+    font: 15px/20px 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    text-align: center;
+}
+
+.get-template-form input[type="email"]{
+    text-align: center;
+    width: 400px;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+
+}
+.get-template-form input[type="submit"] {
+    width: 400px;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    background: linear-gradient(45deg, black, grey, black);
+    color: #FFFFFF;
+    text-transform: uppercase;
+    cursor: pointer;
+    opacity: 0.5;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font: 15px/20px 'poppinsregular';
+}
+.get-template-form input[type="submit"]:hover{
+    opacity: 1;
+
+}
+
+
+
 
 
 
